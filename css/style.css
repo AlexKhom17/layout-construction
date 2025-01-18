@@ -618,7 +618,10 @@ padding: 150px 15px;
 .contacts__h3 {
     text-transform: uppercase;
 }
-
+.contacts__h3 a {
+    text-decoration: none;
+    color: inherit;
+}
 .contacts__h3-gray {
     color: var(--gray-color);
     margin-bottom: 20px;
